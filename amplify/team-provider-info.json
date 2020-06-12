@@ -1,0 +1,23 @@
+{
+    "cloudingp": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cloudingroject-cloudingp-195659-authRole",
+            "UnauthRoleArn": "arn:aws:iam::576343596676:role/amplify-cloudingroject-cloudingp-195659-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::576343596676:role/amplify-cloudingroject-cloudingp-195659-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-cloudingroject-cloudingp-195659-deployment",
+            "UnauthRoleName": "amplify-cloudingroject-cloudingp-195659-unauthRole",
+            "StackName": "amplify-cloudingroject-cloudingp-195659",
+            "StackId": "arn:aws:cloudformation:us-east-2:576343596676:stack/amplify-cloudingroject-cloudingp-195659/d9a73160-82a1-11ea-8cfa-025282f53354",
+            "AmplifyAppId": "d1int2gvsfgzyq"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1int2gvsfgzyq",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
