@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: gif-docker
+ labels:
+   app: gif-docker
+spec:
+ replicas: 3
+ selector:
+   matchLabels:
+     app: gif-docker
+ template:
+   metadata:
+     labels:
+       app: gif-docker
+   spec:
+     containers:
+     - name: gif-docker
+       image: gcr.io/proyectofinal-2020/gif-docker
+       ports:
+       - containerPort: 22
